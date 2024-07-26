@@ -1,0 +1,346 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 795vh;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url('fonts/Ubuntu-Medium.ttf');
+}
+
+.art-school {
+    color: white;
+    font-family: Ubuntu;
+    width: 100%;
+    height: 110vh;
+    background-color: rgb(7, 78, 106);
+    background-image: url('img/art-school.jpeg');
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    top: 0px;
+}
+
+.art-div {
+    position: absolute;
+    left: 11rem;
+    top: 4.5rem;
+}
+
+
+
+.art-div h1 {
+    font-size: 4.5rem;
+    letter-spacing: 10px;
+}
+
+.school-div {
+    position: absolute;
+    left: 16rem;
+    top: 33rem;
+}
+
+.school-div h1 {
+    font-size: 10rem;
+    letter-spacing: 10px;
+}
+
+.childern-art-school {
+    width: 100%;
+    height: 70vh;
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.childern-art-school .about {
+    font-family: Ubuntu;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    gap: 18px;
+    padding-bottom: 30px;
+}
+
+.childern-art-school .text {
+    width: 33%;
+    color: whitesmoke;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.programs {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.top-bar {
+    width: 100%;
+    height: 40vh;
+    background-color: white;
+    position: relative;
+}
+
+.top-bar .child {
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 100px;
+}
+
+.row1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.row1 .features-1 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.features-row {
+    font-family: Ubuntu;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.books {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(33, 31, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Ubuntu;
+    gap: 8rem;
+}
+
+.photo img {
+    height: 540px;
+    width: 520px;
+}
+
+
+.photo {
+    width: 30%;
+}
+
+.text {
+    width: 30%;
+    color: white;
+}
+
+.text button {
+    background-color: rgb(154, 141, 141);
+    font-size: 17px;
+    color: white;
+    padding: .8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    cursor: pointer;
+    margin-top: 60px;
+}
+
+.text button:hover {
+    background-color: rgb(82, 79, 79);
+}
+
+.text .inner-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gallery {
+    width: 100%;
+    height: 240vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.gallery .top-bar {
+    background-color: white;
+    width: 30%;
+    height: 30vh;
+    font-family: Ubuntu;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 60px;
+
+}
+
+.gallery .row1 {
+    height: 57vh;
+    width: 100%;
+    font-family: Ubuntu;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 16px;
+
+}
+
+img {
+    object-fit: cover;
+}
+
+.stats {
+    height: 60vh;
+    background-color: lightslategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12rem;
+
+}
+
+.stats p {
+    font-size: 17px;
+    font-weight: 100;
+    color: whitesmoke;
+    letter-spacing: 1px;
+}
+
+.stats h1 {
+    font-family: Ubuntu;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.stats .child {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.slides {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+}
+
+.slides img {
+    flex: 1;
+    object-fit: cover;
+}
+
+.form {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.form .child1 {
+    width: 50%;
+    height: 100vh;
+    background-color: #2F4F4F;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 30px;
+    font-family: Ubuntu;
+    justify-content: center;
+    padding-left: 7rem;
+}
+
+.form .child1 h2 {
+    font-size: 2rem;
+}
+
+.form .child2 {
+
+    width: 50%;
+    height: 100vh;
+    background-color: black;
+    font-family: Ubuntu;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form .child2 div {
+    margin-bottom: 30px;
+}
+
+.form .child2 input {
+    border: 3px solid white;
+    background-color: black;
+    width: 500px;
+    height: 50px;
+    font-size: 1.1rem;
+    padding: 10px;
+    color: white;
+
+}
+
+.form .child2 textarea {
+    border: 3px solid white;
+    background-color: black;
+    width: 500px;
+    height: 150px;
+    font-size: 1.1rem;
+    padding: 10px;
+    color: white;
+}
+
+.form .child2 button {
+    background-color: lightgray;
+    font-size: 17px;
+    height: 45px;
+    padding: 10px 25px; 
+    margin-top: -20px;
+}
+
+.form .child2 button:hover {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.footer {
+    height: 15vh;
+    background-color: rgb(81, 120, 120);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p a {
+    color: lightgray;
+}
+
+.footer p a:hover {
+    color: rgb(110, 73, 73);
+    text-decoration: none;
+}
+
+.footer p {
+    color: whitesmoke;
+}
